@@ -4,5 +4,6 @@ app = Flask(__name__)
 @app.route('/')
 def student():
    return render_template('student.html')
+ vino
 if __name__=="__main__":
    app.run()
